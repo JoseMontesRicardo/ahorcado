@@ -1,0 +1,2 @@
+# ahorcado
+juego el ahorcado
