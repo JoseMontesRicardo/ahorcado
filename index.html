@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Anonymous</title>
+	<style>
+		body{
+			background: #DDD;
+			text-align: center;
+		}
+		canvas{
+			border: 1px solid black;
+		}
+		#adivinala{
+			margin: 0 0 .2em 0;
+			font-size: 2.5em;
+		}
+	</style>
+</head>
+<body>
+	<h2 id="ahorcado" class="class-h2">El Ahorcado</h2>
+	<div>
+		<input type="text" id="letra"/>
+		<input type="submit" value="Ahorcado" id="boton" />	
+	</div>
+	<p id="adivinala"></p>
+	<canvas width="500" height="500" id="areaDibujo"></canvas>
+	<script src="canvas.js"></script>
+</body>
+</html>
