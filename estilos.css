@@ -1,0 +1,11 @@
+body{
+			background: aqua;
+			text-align: center;
+		}
+		canvas{
+			border: 1px solid black;
+		}
+		#adivinala{
+			margin: 0 0 .2em 0;
+			font-size: 2.5em;
+		}
